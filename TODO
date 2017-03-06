@@ -1,0 +1,25 @@
+Nov 26-27
+
+Deploy on google-app-engine
+Remove id from views
+Default time/date in forms
+Auto-detection of timezones (followed tutorial with a jstz library)
+-------
+
+Nov 30
+defined diet as deafult app in routes.py
+sqlform buttons - no-text when using mobile browser
+
+Dec 03
+Dedicated search_form in tables that has person and date range
+Make search hide show in tables
+Making graphs using highcharts
+
+Dec 10
+Make graphs using ajax
+Redo layouts
+Write Quarterly talk on web2py
+Add guest user with read-only permission
+
+Dec 17
+Make module for forms, imported in controllers

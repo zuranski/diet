@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<h2>{{=message}}</h2>
+{{=form}}
+<div id="plots"></div>
+<script>
+jQuery('#form').submit(function() {
+  ajax('{{=URL('default','plots')}}',
+       ['Person','From','To'], 'plots');
+  return false;
+});
+</script>
+<script>
+$(document).ready(function(){
+     $("#form").submit();
+});
+</script>
